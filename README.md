@@ -29,7 +29,7 @@ Convolutional layers convolve the input and pass its result to the next layer. T
 ## Residual Networks(ResNets)
 
 <p> In practice, having a plain network(not a ResNets) that is very deep makes the optimization algorithm to consume much harder time during training and the training error gets worse if we pick a very deep network. That is why, we will use Residual Network(ResNet) so that we can train very very deep network(even over 100 layers). Even with such amount of layers in ResNet, the training error kind of keep going down which is a good sign.</p>
-<p> ResNets uses *skip connection* technique which allows to take the activation from one layer and suddenly feed it to another layer even much deeper in the neural network. This network is built out of something called Residual Blocks and stacked together to form a deeper network.</p>
+<p> ResNets uses **skip-connection** technique which allows to take the activation from one layer and suddenly feed it to another layer even much deeper in the neural network. This network is built out of something called Residual Blocks and stacked together to form a deeper network.</p>
 
 ## Inception Network
 

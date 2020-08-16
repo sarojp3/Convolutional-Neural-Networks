@@ -36,5 +36,5 @@ Convolutional layers convolve the input and pass its result to the next layer. T
 <p> The main idea of inception network is we can use different filter size ie 1X1, 3X3, 5X5 and Pooling layer at the same time in a CNN and concatenate all the outputs and let the network learn whatever the combinations of these filter sizes it wants. The 1X1 filter layer helps to reduce the number of channels and keep the size of image same.</p>
 <p>If we are building a layer of a neural network and we don't have to decide which size of filter layer to choose, the inception module lets us to do them all and concatenate the result.But using this module will have computation cost problem. To solve this, the 1X1 layer is used as a bottleneck layer to compute other layer(3X3,5X5 and Pooling).</p>
 
-#### Note: *One of the best way to get intuition about best working CNN is to see some case studies or research papers. Some of the effective Classcical Neural Networks are LeNet-5, AlexNet and VGG. Studying these networks can be very helpful to get better intuition about these networks.
+#### Note: *One of the best way to get intuition about best working CNN is to see some case studies or research papers. Some of the effective Classcical Neural Networks are LeNet-5, AlexNet and VGG. Studying these networks can be very helpful to get better intuition about these networks.*
 
